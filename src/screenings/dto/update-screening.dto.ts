@@ -1,5 +1,5 @@
 export declare class UpdateScreeningDto {
-    item?: string;
-    quantity?: number;
-    status?: "pending" | "ready";
+    movieTitle?: string;
+    startsAt?: Date;
+    status?: "schedule" | "cancelled";
 }
