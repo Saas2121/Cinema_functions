@@ -1,5 +1,5 @@
-export declare class CreateScreeningDto {
-    movieTitle: string;
-    startsAt: Date;
-    roomId: number;
+export class CreateScreeningDto {
+    movieTitle!: string;
+    startsAt!: Date;
+    roomId!: number;
 }

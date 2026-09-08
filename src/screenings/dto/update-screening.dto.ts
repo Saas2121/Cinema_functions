@@ -1,4 +1,4 @@
-export declare class UpdateScreeningDto {
+export class UpdateScreeningDto {
     movieTitle?: string;
     startsAt?: Date;
     status?: "schedule" | "cancelled";

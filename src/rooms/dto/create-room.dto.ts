@@ -1,4 +1,4 @@
-export declare class CreateRoomDto {
-    name: string;
-    capacity: number;
+export class CreateRoomDto {
+    name!: string;
+    capacity!:  number;
 }
